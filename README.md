@@ -1,8 +1,8 @@
-# DaNeighbourhoodHelp
-Help your brothers in da hood...
+# Rattatui WebServer
+Learn/do cooking in puzzle style and combine your meals from different parts...
 
 
-# Start the HoodHelp web server
+# Start the Rattatui web server
 Windows: Execute startup batch script: Start_DaHoodHelp.cmd
 
 Linux: ...
