@@ -18,6 +18,8 @@ Project name:			rattatui
 Sub-Apps in project:	rat_main, 
 
 
-
-
+# Install/configure Python venv
+python -m pip install --upgrade setuptools
+python -m pip install --upgrade pip
+python -m pip install django
 
