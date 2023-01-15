@@ -1,0 +1,75 @@
+##### LinuxOS VM-Configuration #####
+
+
+
+### Virtual Machine settings/creation ###
+
+VM-Name:	minlin
+VM-Level:	Virtuelle ESXi 7.0 U2-Maschine
+OS-Type:	Linux 64 Bit
+OS-Dist:	Ubuntu Linux (64 Bit)
+Dist-Iso:	ubuntu-22.04.1-desktop-amd64.iso (3,56 GB/Montag, 14. November 2022)
+
+VM vCPUs:	4
+VM RAM:		8 GB
+VM VHD:		1 HDD/60 GB - Thin provisioned
+
+
+
+### OS Installation ###
+
+1. Copy Iso-File to ESXi-Storage (e.g. "temp" folder)
+   >> Mount Iso-File in VM and boot VM
+
+2. Select option "try or install"
+   >> Select install language "English" and option "Install Ubuntu"
+
+4. Choose keyboard layout "German" and "German - German (no dead keys)
+   >> Test the keys "y" and "z" to match the keyboard layout
+   >> Click "Continue"
+   
+5. Select "Minimal installtion"
+   >> Click "Continue"
+
+6. Select "Erase disk and install Ubuntu"
+   >> Click "Install Now" >> Click "Continue"
+
+7. Select timezone/city "Berlin"
+   >> Click "Continue"
+   
+8. Personal infos "Who are you?"
+   Name:			majo
+   Computername:	minlin
+   Password:		dkhnr123$
+   Select the option "Log in automatically" 
+   >> Click "Continue"
+   
+9. Reboot the OS
+
+
+
+### Additional VM-Settings ###
+
+Click Add Configuration Params 3 times and it will add 3 new rows
+Fill in the Name and Value fields with the following values:
+
+Name									Value
+"""""""""""""""""""""""""""""""""""""""""""""
+isolation.tools.copy.disable 			FALSE
+isolation.tools.paste.disable 			FALSE
+isolation.tools.setGUIOptions.enable 	TRUE
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
