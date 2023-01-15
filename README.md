@@ -9,9 +9,14 @@ Linux: ...
 
 
 # Superadmin account data
-* Username: ueberadmin
-* Password: T0b$3CReeed089$$$
-* Email: ueberadmin@hoodheld.hh
+Superadmin:		ratadmin
+Password:		dkhnr123$
+Email-Address:	huber.florian@gmx.de
+
+
+Project name:			rattatui
+Sub-Apps in project:	rat_main, 
+
 
 
 
